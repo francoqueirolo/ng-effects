@@ -1,3 +1,4 @@
+import { UsuarioEffects } from './usuario.effects';
 import { UsuariosEffects } from './usuarios.effects';
 
-export const EffectsArray = [UsuariosEffects];
+export const EffectsArray = [UsuariosEffects, UsuarioEffects];
